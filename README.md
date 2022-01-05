@@ -1,7 +1,7 @@
 About flake8-type-checking
 ==========================
 
-Home: https://github.com/snok
+Home: https://github.com/snok/flake8-type-checking
 
 Package license: BSD-3-Clause
 
