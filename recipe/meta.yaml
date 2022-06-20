@@ -1,5 +1,5 @@
 {% set name = "flake8-type-checking" %}
-{% set version = "1.5.0" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8-type-checking-{{ version }}.tar.gz
-  sha256: d01234fc2d3ffc9661dd797fb1bed19e2d92a1fb4041a4e8dc0200ea14f357c0
+  sha256: 6cc83291529d01799870220d6981c2c0ab4be29673f5bb651d78ad16cfa7169d
 
 build:
   number: 0
@@ -21,6 +21,7 @@ requirements:
     - poetry-core >=1.0.0
     - python >=3.6
   run:
+    - aspy.refactor-imports
     - flake8
     - python >=3.6
 
